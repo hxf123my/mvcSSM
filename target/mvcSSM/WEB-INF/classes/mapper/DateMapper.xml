@@ -31,6 +31,7 @@
     select id, username, password
     from date
   </select>
+
   <select id="selectId" parameterType="java.lang.String" resultMap="BaseResultMap">
     select * from date where 1=1
     <if test="username!=null and username!=''">
